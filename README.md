@@ -1,22 +1,22 @@
-Prose è un editor web leggero ma potente, progettato per chi ha bisogno di scrivere documenti in Markdown con un supporto nativo e avanzato per la matematica in LaTeX. Costruito con un'interfaccia pulita e moderna, funziona direttamente nel browser senza bisogno di backend, garantendo privacy e velocità.
+# Prose — Editor Professionale per Markdown e LaTeX
 
-✨ Funzionalità Principali
-Markdown & LaTeX in tempo reale: Anteprima live sincronizzata, con supporto completo per sintassi Markdown (Marked.js), evidenziazione del codice (Highlight.js) e formule matematiche (KaTeX).
+**Prose** è un editor web moderno, leggero e reattivo, progettato per offrire un'esperienza di scrittura fluida e senza distrazioni. Unisce la semplicità e la velocità del Markdown alla potenza tipografica del LaTeX. Essendo una Progressive Web App (PWA) "local-first", funziona interamente nel tuo browser senza necessità di backend, garantendo privacy totale e supporto offline.
 
-PWA & Supporto Offline: Installabile come applicazione desktop o mobile. Funziona perfettamente anche senza connessione internet.
+## ✨ Funzionalità Principali
 
-Gestione Multi-Documento: Lavora su più file contemporaneamente grazie al sistema a schede integrato.
+* **Rendering in Tempo Reale:** Scrivi in Markdown e visualizza immediatamente l'anteprima formattata con evidenziazione della sintassi.
+* **Matematica Integrata:** Supporto nativo per formule LaTeX inline e a blocco, renderizzate istantaneamente tramite KaTeX.
+* **Supporto Offline (PWA):** Installa Prose sul tuo desktop o smartphone e continua a scrivere anche senza connessione internet.
+* **Gestione Multi-Documento:** Lavora su più file contemporaneamente grazie a un comodo sistema a schede.
+* **Modalità Focus:** Nascondi le barre degli strumenti e l'interfaccia secondaria per concentrarti esclusivamente sul testo.
+* **Esportazione Flessibile:** Salva i tuoi documenti come `.md`, convertili in `.html`, stampali in `.pdf` (con stili di stampa ottimizzati) o esportali come immagini ad alta risoluzione (PNG, JPG, SVG).
+* **Pannelli Flottanti:** Inserisci rapidamente emoji o ricerca formule matematiche tramite comodi menu contestuali.
+* **Riconoscimento Disegno:** Utilizza il canvas integrato per disegnare simboli matematici e ottenere istantaneamente il codice LaTeX corrispondente.
 
-Salvataggio Automatico: I tuoi documenti vengono salvati automaticamente nel local storage del browser. Nessuna perdita di dati.
+## 🛠️ Stack Tecnologico
 
-Esportazione Avanzata: Scarica i tuoi documenti come .md, convertili in .html, stampali in .pdf (con stili ottimizzati) o esportali come immagini (PNG, JPG, SVG).
-
-Strumenti per la Produttività: * Pannello per l'inserimento rapido di Emoji e formule matematiche.
-
-Strumento di disegno per il riconoscimento dei simboli LaTeX.
-
-Ricerca e sostituzione avanzata (con supporto Regex).
-
-Modalità Focus per scrivere senza distrazioni.
-
-Completamente Responsive: Modalità chiara e scura automatica (o manuale) e interfaccia adattabile per l'uso su smartphone, tablet e desktop.
+* **Linguaggi Core:** HTML5, CSS3 (con variabili CSS e temi dinamici), Vanilla JavaScript
+* **Motore Markdown:** Marked.js
+* **Motore Matematico:** KaTeX
+* **Evidenziazione Codice:** Highlight.js
+* **Elaborazione Immagini:** html-to-image
